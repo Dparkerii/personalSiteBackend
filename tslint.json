@@ -20,7 +20,7 @@
         "interface-name": [true, "never-prefix"],
         "jsdoc-format": true,
         "label-position": true,
-        "max-line-length": [ true, 120 ],
+        "max-line-length": [ false, 120 ],
         "member-access": true,
         "member-ordering": [
             true,

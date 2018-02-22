@@ -48,12 +48,12 @@ export class PostRouter {
     }
 
     const post = new Post({
-      title,
-      slug,
+      category,
       content,
       featuredImage,
-      category,
-      published
+      published,
+      slug,
+      title
     });
 
     post.save()
